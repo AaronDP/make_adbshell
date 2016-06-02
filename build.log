@@ -1,0 +1,444 @@
+Making distclean in glob
+make[1]: Entering directory `/opt/StudioProjects/Luabot/src/main/make-4.2/glob'
+test -z "libglob.a" || rm -f libglob.a
+rm -f *.o
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps
+rm -f Makefile
+make[1]: Leaving directory `/opt/StudioProjects/Luabot/src/main/make-4.2/glob'
+Making distclean in config
+make[1]: Entering directory `/opt/StudioProjects/Luabot/src/main/make-4.2/config'
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f Makefile
+make[1]: Leaving directory `/opt/StudioProjects/Luabot/src/main/make-4.2/config'
+Making distclean in po
+make[1]: Entering directory `/opt/StudioProjects/Luabot/src/main/make-4.2/po'
+rm -f *.insert-header
+rm -f remove-potcdate.sed
+rm -f stamp-poT
+rm -f core core.* make.po make.1po make.2po *.new.po
+rm -fr *.o
+rm -f Makefile Makefile.in POTFILES *.mo
+make[1]: Leaving directory `/opt/StudioProjects/Luabot/src/main/make-4.2/po'
+Making distclean in doc
+make[1]: Entering directory `/opt/StudioProjects/Luabot/src/main/make-4.2/doc'
+test -z "make.dvi make.pdf make.ps make.html" \
+	|| rm -rf make.dvi make.pdf make.ps make.html
+test -z "make*.html" || rm -f make*.html
+rm -rf make.t2d make.t2p
+rm -f vti.tmp* ./version.texi.tmp*
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f Makefile
+make[1]: Leaving directory `/opt/StudioProjects/Luabot/src/main/make-4.2/doc'
+Making distclean in w32
+make[1]: Entering directory `/opt/StudioProjects/Luabot/src/main/make-4.2/w32'
+test -z "libw32.a" || rm -f libw32.a
+rm -f *.o
+rm -f compat/*.o
+rm -f subproc/*.o
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f compat/.deps/.dirstamp
+rm -f compat/.dirstamp
+rm -f subproc/.deps/.dirstamp
+rm -f subproc/.dirstamp
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -rf ./.deps compat/.deps subproc/.deps
+rm -f Makefile
+make[1]: Leaving directory `/opt/StudioProjects/Luabot/src/main/make-4.2/w32'
+make[1]: Entering directory `/opt/StudioProjects/Luabot/src/main/make-4.2'
+test -z "make" || rm -f make
+test -z "loadavg" || rm -f loadavg
+rm -f *.o
+rm -f *.tab.c
+test -z "tests/config-flags.pm" || rm -f tests/config-flags.pm
+test . = "." || test -z "" || rm -f 
+test -z "build.sh" || rm -f build.sh
+rm -f config.h stamp-h1
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f cscope.out cscope.in.out cscope.po.out cscope.files
+make[1]: Leaving directory `/opt/StudioProjects/Luabot/src/main/make-4.2'
+rm -f config.status config.cache config.log configure.lineno config.status.lineno
+rm -rf .deps ./.deps
+rm -f Makefile
+configure.ac:21: error: Autoconf version 2.69 or higher is required
+configure.ac:21: the top level
+autom4te: /usr/bin/m4 failed with exit status: 63
+aclocal: /usr/bin/autom4te failed with exit status: 63
+autoreconf: aclocal failed with exit status: 63
+configure: WARNING: unrecognized options: --with-curl, --with-editor, --with-expat, --with-gitconfig, --with-libpcre, --with-openssl, --without-iconv, --with-pager
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for arm-linux-androideabi-strip... /tmp/chain/bin/arm-linux-androideabi-strip
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for arm-linux-androideabi-gcc... /tmp/chain/bin/arm-linux-androideabi-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... yes
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /tmp/chain/bin/arm-linux-androideabi-gcc accepts -g... yes
+checking for /tmp/chain/bin/arm-linux-androideabi-gcc option to accept ISO C89... none needed
+checking whether /tmp/chain/bin/arm-linux-androideabi-gcc understands -c and -o together... yes
+checking dependency style of /tmp/chain/bin/arm-linux-androideabi-gcc... gcc3
+checking how to run the C preprocessor... /tmp/chain/bin/arm-linux-androideabi-cpp
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for arm-linux-androideabi-gcc... (cached) /tmp/chain/bin/arm-linux-androideabi-gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether /tmp/chain/bin/arm-linux-androideabi-gcc accepts -g... (cached) yes
+checking for /tmp/chain/bin/arm-linux-androideabi-gcc option to accept ISO C89... (cached) none needed
+checking whether /tmp/chain/bin/arm-linux-androideabi-gcc understands -c and -o together... (cached) yes
+checking dependency style of /tmp/chain/bin/arm-linux-androideabi-gcc... (cached) gcc3
+checking for arm-linux-androideabi-ranlib... /tmp/chain/bin/arm-linux-androideabi-ranlib
+checking how to run the C preprocessor... /tmp/chain/bin/arm-linux-androideabi-cpp
+checking for ar... /tmp/chain/bin/arm-linux-androideabi-ar
+checking for perl... perl
+checking for arm-linux-androideabi-ar... (cached) /tmp/chain/bin/arm-linux-androideabi-ar
+checking the archiver (/tmp/chain/bin/arm-linux-androideabi-ar) interface... ar
+checking build system type... i686-pc-linux-gnu
+checking host system type... arm-unknown-linux-androideabi
+checking for library containing strerror... none required
+checking for a sed that does not truncate output... /bin/sed
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by /tmp/chain/bin/arm-linux-androideabi-gcc... /tmp/chain/bin/arm-linux-androideabi-ld
+checking if the linker (/tmp/chain/bin/arm-linux-androideabi-ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... no
+checking for iconv... no, consider installing GNU libiconv
+checking for GNU gettext in libintl... no
+checking whether to use NLS... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... unknown
+checking for _LARGE_FILES value needed for large files... unknown
+checking for library containing getpwnam... none required
+checking for ANSI C header files... (cached) yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking whether stat file-mode macros are broken... no
+checking whether time.h and sys/time.h may both be included... yes
+checking for stdlib.h... (cached) yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for unistd.h... (cached) yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for string.h... (cached) yes
+checking for memory.h... (cached) yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/timeb.h usability... yes
+checking sys/timeb.h presence... yes
+checking for sys/timeb.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking for an ANSI C-conforming const... yes
+checking return type of signal handlers... void
+checking for uid_t in sys/types.h... yes
+checking for pid_t... yes
+checking for off_t... yes
+checking for size_t... yes
+checking for ssize_t... yes
+checking for unsigned long long int... yes
+checking for uintmax_t... yes
+checking for nanoseconds field of struct stat... no
+checking whether to use high resolution file timestamps... no
+checking whether system uses MSDOS-style paths... no
+checking for standard gettimeofday... no (cross-compiling)
+checking for strdup... yes
+checking for strndup... yes
+checking for mkstemp... yes
+checking for mktemp... yes
+checking for fdopen... yes
+checking for fileno... yes
+checking for dup... yes
+checking for dup2... yes
+checking for getcwd... yes
+checking for realpath... yes
+checking for sigsetmask... yes
+checking for sigaction... yes
+checking for getgroups... yes
+checking for seteuid... yes
+checking for setegid... yes
+checking for setlinebuf... yes
+checking for setreuid... yes
+checking for setregid... yes
+checking for getrlimit... yes
+checking for setrlimit... yes
+checking for setvbuf... yes
+checking for pipe... yes
+checking for strerror... yes
+checking for strsignal... yes
+checking for lstat... yes
+checking for readlink... yes
+checking for atexit... yes
+checking for isatty... yes
+checking for ttyname... yes
+checking for pselect... yes
+checking whether bsd_signal is declared... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... cross
+configure: WARNING: result yes guessed because of cross compilation
+checking for working vfork... (cached) yes
+checking for strcasecmp... yes
+checking for strncasecmp... yes
+checking for strcmpi... no
+checking for strncmpi... no
+checking for stricmp... no
+checking for strnicmp... no
+checking for working strcoll... no
+checking for working alloca.h... yes
+checking for alloca... yes
+checking whether closedir returns void... yes
+checking for arm-linux-androideabi-pkg-config... no
+checking for pkg-config... /usr/bin/pkg-config
+configure: WARNING: using cross tools not prefixed with host triplet
+checking pkg-config is at least version 0.9.0... yes
+checking for GUILE... no
+checking for GUILE... no
+checking for getloadavg... no
+checking for pstat_getdynamic... no
+checking for kstat_open in -lkstat... no
+checking for elf_begin in -lelf... no
+checking for kvm_open in -lkvm... no
+checking for getloadavg in -lutil... no
+checking for getloadavg in -lgetloadavg... no
+checking for getloadavg... no
+checking sys/dg_sys_info.h usability... no
+checking sys/dg_sys_info.h presence... no
+checking for sys/dg_sys_info.h... no
+checking for locale.h... (cached) yes
+checking for setlocale... yes
+checking inq_stats/cpustats.h usability... no
+checking inq_stats/cpustats.h presence... no
+checking for inq_stats/cpustats.h... no
+checking sys/cpustats.h usability... no
+checking sys/cpustats.h presence... no
+checking for sys/cpustats.h... no
+checking mach/mach.h usability... no
+checking mach/mach.h presence... no
+checking for mach/mach.h... no
+checking nlist.h usability... no
+checking nlist.h presence... no
+checking for nlist.h... no
+checking whether getloadavg requires setgid... no
+checking whether sys_siglist is declared... yes
+checking whether _sys_siglist is declared... no
+checking whether __sys_siglist is declared... no
+checking for sys/wait.h... yes
+checking for waitpid... yes
+checking for wait3... yes
+checking for union wait... no
+checking for SA_RESTART... yes
+checking whether dlopen is declared... yes
+checking whether dlsym is declared... yes
+checking whether dlerror is declared... yes
+checking for library containing dlopen... none required
+checking If the linker accepts -Wl,--export-dynamic... yes
+checking for location of SCCS get command... get
+checking if system libc has GNU glob... no
+checking if malloc debugging is wanted... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating glob/Makefile
+config.status: creating po/Makefile.in
+config.status: creating config/Makefile
+config.status: creating doc/Makefile
+config.status: creating w32/Makefile
+config.status: creating tests/config-flags.pm
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+configure: WARNING: unrecognized options: --with-curl, --with-editor, --with-expat, --with-gitconfig, --with-libpcre, --with-openssl, --without-iconv, --with-pager
+config.status: creating build.sh
+make  all-recursive
+make[1]: Entering directory `/opt/StudioProjects/Luabot/src/main/make-4.2'
+Making all in glob
+make[2]: Entering directory `/opt/StudioProjects/Luabot/src/main/make-4.2/glob'
+/tmp/chain/bin/arm-linux-androideabi-gcc -DHAVE_CONFIG_H -I. -I..   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT glob.o -MD -MP -MF .deps/glob.Tpo -c -o glob.o glob.c
+mv -f .deps/glob.Tpo .deps/glob.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DHAVE_CONFIG_H -I. -I..   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT fnmatch.o -MD -MP -MF .deps/fnmatch.Tpo -c -o fnmatch.o fnmatch.c
+mv -f .deps/fnmatch.Tpo .deps/fnmatch.Po
+rm -f libglob.a
+/tmp/chain/bin/arm-linux-androideabi-ar cru libglob.a glob.o fnmatch.o 
+/tmp/chain/bin/arm-linux-androideabi-ranlib libglob.a
+make[2]: Leaving directory `/opt/StudioProjects/Luabot/src/main/make-4.2/glob'
+Making all in config
+make[2]: Entering directory `/opt/StudioProjects/Luabot/src/main/make-4.2/config'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/opt/StudioProjects/Luabot/src/main/make-4.2/config'
+Making all in po
+make[2]: Entering directory `/opt/StudioProjects/Luabot/src/main/make-4.2/po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/opt/StudioProjects/Luabot/src/main/make-4.2/po'
+Making all in doc
+make[2]: Entering directory `/opt/StudioProjects/Luabot/src/main/make-4.2/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/opt/StudioProjects/Luabot/src/main/make-4.2/doc'
+make[2]: Entering directory `/opt/StudioProjects/Luabot/src/main/make-4.2'
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT ar.o -MD -MP -MF .deps/ar.Tpo -c -o ar.o ar.c
+mv -f .deps/ar.Tpo .deps/ar.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT arscan.o -MD -MP -MF .deps/arscan.Tpo -c -o arscan.o arscan.c
+mv -f .deps/arscan.Tpo .deps/arscan.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT commands.o -MD -MP -MF .deps/commands.Tpo -c -o commands.o commands.c
+mv -f .deps/commands.Tpo .deps/commands.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT default.o -MD -MP -MF .deps/default.Tpo -c -o default.o default.c
+mv -f .deps/default.Tpo .deps/default.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT dir.o -MD -MP -MF .deps/dir.Tpo -c -o dir.o dir.c
+mv -f .deps/dir.Tpo .deps/dir.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT expand.o -MD -MP -MF .deps/expand.Tpo -c -o expand.o expand.c
+mv -f .deps/expand.Tpo .deps/expand.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT file.o -MD -MP -MF .deps/file.Tpo -c -o file.o file.c
+mv -f .deps/file.Tpo .deps/file.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT function.o -MD -MP -MF .deps/function.Tpo -c -o function.o function.c
+mv -f .deps/function.Tpo .deps/function.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT getopt.o -MD -MP -MF .deps/getopt.Tpo -c -o getopt.o getopt.c
+mv -f .deps/getopt.Tpo .deps/getopt.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT getopt1.o -MD -MP -MF .deps/getopt1.Tpo -c -o getopt1.o getopt1.c
+mv -f .deps/getopt1.Tpo .deps/getopt1.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT guile.o -MD -MP -MF .deps/guile.Tpo -c -o guile.o guile.c
+mv -f .deps/guile.Tpo .deps/guile.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT implicit.o -MD -MP -MF .deps/implicit.Tpo -c -o implicit.o implicit.c
+mv -f .deps/implicit.Tpo .deps/implicit.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT job.o -MD -MP -MF .deps/job.Tpo -c -o job.o job.c
+mv -f .deps/job.Tpo .deps/job.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT load.o -MD -MP -MF .deps/load.Tpo -c -o load.o load.c
+mv -f .deps/load.Tpo .deps/load.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT loadapi.o -MD -MP -MF .deps/loadapi.Tpo -c -o loadapi.o loadapi.c
+mv -f .deps/loadapi.Tpo .deps/loadapi.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o main.c
+mv -f .deps/main.Tpo .deps/main.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT misc.o -MD -MP -MF .deps/misc.Tpo -c -o misc.o misc.c
+mv -f .deps/misc.Tpo .deps/misc.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT posixos.o -MD -MP -MF .deps/posixos.Tpo -c -o posixos.o posixos.c
+mv -f .deps/posixos.Tpo .deps/posixos.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT output.o -MD -MP -MF .deps/output.Tpo -c -o output.o output.c
+mv -f .deps/output.Tpo .deps/output.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT read.o -MD -MP -MF .deps/read.Tpo -c -o read.o read.c
+mv -f .deps/read.Tpo .deps/read.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT remake.o -MD -MP -MF .deps/remake.Tpo -c -o remake.o remake.c
+mv -f .deps/remake.Tpo .deps/remake.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT rule.o -MD -MP -MF .deps/rule.Tpo -c -o rule.o rule.c
+mv -f .deps/rule.Tpo .deps/rule.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT signame.o -MD -MP -MF .deps/signame.Tpo -c -o signame.o signame.c
+mv -f .deps/signame.Tpo .deps/signame.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT strcache.o -MD -MP -MF .deps/strcache.Tpo -c -o strcache.o strcache.c
+mv -f .deps/strcache.Tpo .deps/strcache.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT variable.o -MD -MP -MF .deps/variable.Tpo -c -o variable.o variable.c
+mv -f .deps/variable.Tpo .deps/variable.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT version.o -MD -MP -MF .deps/version.Tpo -c -o version.o version.c
+mv -f .deps/version.Tpo .deps/version.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT vpath.o -MD -MP -MF .deps/vpath.Tpo -c -o vpath.o vpath.c
+mv -f .deps/vpath.Tpo .deps/vpath.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT hash.o -MD -MP -MF .deps/hash.Tpo -c -o hash.o hash.c
+mv -f .deps/hash.Tpo .deps/hash.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT remote-stub.o -MD -MP -MF .deps/remote-stub.Tpo -c -o remote-stub.o remote-stub.c
+mv -f .deps/remote-stub.Tpo .deps/remote-stub.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc -DLOCALEDIR=\"/data/local/tmp/lib/share/locale\" -DLIBDIR=\"/data/local/tmp/lib\" -DINCLUDEDIR=\"/data/local/tmp/lib/include\" -DHAVE_CONFIG_H -I.  -I./glob  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET   -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -MT getloadavg.o -MD -MP -MF .deps/getloadavg.Tpo -c -o getloadavg.o getloadavg.c
+mv -f .deps/getloadavg.Tpo .deps/getloadavg.Po
+/tmp/chain/bin/arm-linux-androideabi-gcc  -DNO_GETTEXT -DNO_ICONV -DNO_PERL -DNO_GECOS_IN_PWENT -I/tmp/chain/include -I/data/local/tmp/lib/include -I/opt/ndk/platforms/android-17/arch-arm/usr/include -I/opt/bionic/libc/include -UHAVE_CLOCK_GETTIME -UHAVE_GETPWENT -UHAVE_GETPWNAM -UHAVE_GETPWUID  -UHAVE_GETTEXT -UHAVE_ICONV -UHAVE_ICONV_H -UHAVE_LANGINFO_H -UHAVE_LIBINTL_H -UHAVE_LOCALE_H -UHAVE_NL_LANGINFO_CODESET  -Wl,--export-dynamic -Wl,--no-as-needed -ldl -L/data/local/tmp/lib -L/opt/ndk/platforms/android-17/arch-arm/usr/lib -L/tmp/chain/lib  -o make ar.o arscan.o commands.o default.o dir.o expand.o file.o function.o getopt.o getopt1.o guile.o implicit.o job.o load.o loadapi.o main.o misc.o posixos.o output.o read.o remake.o rule.o signame.o strcache.o variable.o version.o vpath.o hash.o remote-stub.o getloadavg.o  glob/libglob.a   
+make[2]: Leaving directory `/opt/StudioProjects/Luabot/src/main/make-4.2'
+make[1]: Leaving directory `/opt/StudioProjects/Luabot/src/main/make-4.2'
+Making install in glob
+make[1]: Entering directory `/opt/StudioProjects/Luabot/src/main/make-4.2/glob'
+make[2]: Entering directory `/opt/StudioProjects/Luabot/src/main/make-4.2/glob'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/opt/StudioProjects/Luabot/src/main/make-4.2/glob'
+make[1]: Leaving directory `/opt/StudioProjects/Luabot/src/main/make-4.2/glob'
+Making install in config
+make[1]: Entering directory `/opt/StudioProjects/Luabot/src/main/make-4.2/config'
+make[2]: Entering directory `/opt/StudioProjects/Luabot/src/main/make-4.2/config'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/opt/StudioProjects/Luabot/src/main/make-4.2/config'
+make[1]: Leaving directory `/opt/StudioProjects/Luabot/src/main/make-4.2/config'
+Making install in po
+make[1]: Entering directory `/opt/StudioProjects/Luabot/src/main/make-4.2/po'
+if test "make" = "gettext-tools"; then \
+	  /bin/mkdir -p /data/local/tmp/lib/share/gettext/po; \
+	  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+	    /usr/bin/install -c -m 644 ./$file \
+			    /data/local/tmp/lib/share/gettext/po/$file; \
+	  done; \
+	  for file in Makevars; do \
+	    rm -f /data/local/tmp/lib/share/gettext/po/$file; \
+	  done; \
+	else \
+	  : ; \
+	fi
+make[1]: Leaving directory `/opt/StudioProjects/Luabot/src/main/make-4.2/po'
+Making install in doc
+make[1]: Entering directory `/opt/StudioProjects/Luabot/src/main/make-4.2/doc'
+make[2]: Entering directory `/opt/StudioProjects/Luabot/src/main/make-4.2/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/data/local/tmp/lib/share/info'
+ /usr/bin/install -c -m 644 ./make.info ./make.info-1 ./make.info-2 '/data/local/tmp/lib/share/info'
+ install-info --info-dir='/data/local/tmp/lib/share/info' '/data/local/tmp/lib/share/info/make.info'
+This is not dpkg install-info anymore, but GNU install-info
+See the man page for ginstall-info for command line arguments
+make[2]: Leaving directory `/opt/StudioProjects/Luabot/src/main/make-4.2/doc'
+make[1]: Leaving directory `/opt/StudioProjects/Luabot/src/main/make-4.2/doc'
+make[1]: Entering directory `/opt/StudioProjects/Luabot/src/main/make-4.2'
+make[2]: Entering directory `/opt/StudioProjects/Luabot/src/main/make-4.2'
+ /bin/mkdir -p '/data/local/tmp/xbin'
+  /usr/bin/install -c make '/data/local/tmp/xbin'
+ /bin/mkdir -p '/data/local/tmp/lib/include'
+ /usr/bin/install -c -m 644 gnumake.h '/data/local/tmp/lib/include'
+ /bin/mkdir -p '/data/local/tmp/lib/share/man/man1'
+ /usr/bin/install -c -m 644 make.1 '/data/local/tmp/lib/share/man/man1'
+make[2]: Leaving directory `/opt/StudioProjects/Luabot/src/main/make-4.2'
+make[1]: Leaving directory `/opt/StudioProjects/Luabot/src/main/make-4.2'
+-rw-rw-r-- 1 aaron aaron 51669 Jun  2 15:48 build.log
